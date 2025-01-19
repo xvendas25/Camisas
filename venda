@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Camisas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Loja de Camisas</h1>
+        <nav>
+            <ul>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="produtos">
+        <h2>Nossas Camisas</h2>
+        <div class="produto">
+            <img src="camisa1.jpg" alt="Camisa 1">
+            <h3>Camisa Azul</h3>
+            <p>R$ 50,00</p>
+            <button onclick="fazerPedido('Camisa Azul')">Comprar</button>
+        </div>
+        <div class="produto">
+            <img src="camisa2.jpg" alt="Camisa 2">
+            <h3>Camisa Amarela</h3>
+            <p>R$ 50,00</p>
+            <button onclick="fazerPedido('Camisa Amarela')">Comprar</button>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Faça seu Pedido</h2>
+        <form id="pedidoForm">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome
